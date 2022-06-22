@@ -1,15 +1,8 @@
-.data-table ul li{
-display: inline-block;
-padding: 0 50px;
-font-size: large;
+.box h1{
+    color: white;
 }
 
-.active{
-    color: black;
-    text-shadow: 1px;
-    background-color: antiquewhite;
-}
-.navbar-heading{
+.box{
     animation: yasir 2s infinite alternate ease-in-out ;
 }
 @keyframes yasir {

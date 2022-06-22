@@ -1,5 +1,10 @@
 import React from "react";
-
+import pic1 from "./images/pic1.jpg"
+import pic2 from "./images/pic2.jpg"
+import pic3 from "./images/pic3.jpg"
+import pic4 from "./images/pic4.jpg"
+import pic5 from "./images/pic5.png"
+import pic6 from "./images/pic6.png"
 const Portfolio = () => {
   return (
     <>
@@ -29,7 +34,7 @@ const Portfolio = () => {
             <div className="carousel-inner">
               <div className="carousel-item active px-5">
                 <img
-                  src="./pic4.jpg"
+                  src={pic4}
                   className="d-block "
                   alt="..."
                   style={{ height: "600px", width: "600px" }}
@@ -37,7 +42,7 @@ const Portfolio = () => {
               </div>
               <div className="carousel-item">
                 <img
-                  src="./pic2.jpg"
+                  src={pic2}
                   className="d-block "
                   alt="..."
                   style={{ height: "600px", width: "600px" }}
@@ -45,7 +50,7 @@ const Portfolio = () => {
               </div>
               <div className="carousel-item">
                 <img
-                  src="./pic3.jpg"
+                  src={pic3}
                   className="d-block "
                   alt="..."
                   style={{ height: "600px", width: "600px" }}
@@ -53,7 +58,7 @@ const Portfolio = () => {
               </div>
               <div className="carousel-item">
                 <img
-                  src="./pic1.jpg"
+                  src={pic1}
                   className="d-block "
                   alt="..."
                   style={{ height: "600px", width: "600px" }}
@@ -61,7 +66,7 @@ const Portfolio = () => {
               </div>
               <div className="carousel-item">
                 <img
-                  src="./pic5.png"
+                  src={pic5}
                   className="d-block "
                   alt="..."
                   style={{ height: "600px", width: "600px" }}
@@ -70,7 +75,7 @@ const Portfolio = () => {
 
               <div className="carousel-item">
                 <img
-                  src="./pic6.png"
+                  src={pic6}
                   className="d-block "
                   alt="..."
                   style={{ height: "600px", width: "600px" }}

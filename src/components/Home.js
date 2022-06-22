@@ -1,6 +1,12 @@
 import React from "react";
-
+ import image from "./images/me2.jpg"
+ import image1 from "./images/me1.png"
+ import { useGlobalContext } from "./Context";
 const Home = () => {
+
+const {name}=useGlobalContext();
+
+  
   return (
     <>
       <div className="container">
@@ -13,11 +19,11 @@ const Home = () => {
               textShadow: "2px 2px red",
             }}
           >
-            Yasir Sohail
+            {name}
           </h1>
           <h5>MERN Stack Developer && React js Developer</h5>
           <p>
-            Hi, I’m Yasir Sohail from Faisalabad, Pakistan. I’m A MERN Stack
+            Hi, I’m Yasir Sohail from Faisalabad, Pakistan. I’m a MERN Stack
             Developer and React js Developer and also proficient in React Native
             as well. I have been studying web development for last 2 years. I have
             been studying in BS Computer Science as well in Government College
@@ -25,7 +31,7 @@ const Home = () => {
             react js, Next js, React Native, Redux, Node js, Express js,
             Mongoose, MongoDB and Restful Api’s.
           </p>
-          <img src="./me2.jpg" alt="logo" />
+          <img src={image} alt="logo" />
           <hr/>
           <h5>My Skills</h5>
           <div className="progress  my-1">
@@ -160,6 +166,7 @@ const Home = () => {
               aria-valuemax="100"
             ></div>
           </div>
+          {/* <img src={image1} alt="me" /> */}
         </div>
       </div>
     </>

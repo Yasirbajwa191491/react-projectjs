@@ -1,5 +1,5 @@
 import React from "react";
-
+import image from "./images/wallpaper.jpg"
 const About = () => {
   return (
     <>
@@ -18,7 +18,7 @@ const About = () => {
             my 6th months internship in IT service of Goverment College
             University Faisalabad. I have completed my 3 months internship in React Native as well.
           </p>
-          <img src="./wallpaper.jpg" alt="wallpaper" style={{height:"400px",width:"700px",margin:"auto"}} />
+          <img src={image} alt="wallpaper" style={{height:"400px",width:"700px",margin:"auto"}} />
         </div>
       </div>
     </>

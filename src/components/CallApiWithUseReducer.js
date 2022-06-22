@@ -15,8 +15,6 @@ import Cards from './components/Cards'
 import HorizontalScrol from './components/HorizontalScrol'
 import Sidebar from './components/Sidebar'
 import Test from './components/Test'
-import Card from './components/Card'
-import Redux from './components/Redux'
 const reducer=(state,action)=>{
   switch(action.type){
     case "SET_LOADING":
@@ -28,7 +26,7 @@ const reducer=(state,action)=>{
         return {
           ...state,
           commData: action.payload.commData,
-          isLoading:false
+          isLoading: false
         }
   }
   return state;
@@ -74,8 +72,6 @@ const App = () => {
       <Route path='/scroll' element={<HorizontalScrol />} />
       <Route path='/test' element={<Test />} />
       <Route path='/sidebar' element={<Sidebar />} />
-      <Route path='/redux' element={<Redux />} />
-      <Route path='/cardbar' element={<Card />} />
       <Route path='/updateproduct/:id' element={<Update_Product />} />
       <Route path='*' element={<Error />} />
     </Routes>

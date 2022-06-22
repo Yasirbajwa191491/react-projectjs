@@ -4,12 +4,9 @@ const Footer = () => {
   return (
     <>
       <footer>
-        <div className="container">
+        <div className="container-fluid bg-dark">
           <div className="row">
-            <div className="col-12 col-lg-10 mx-auto">
-              <div className="row">
-                
-              </div>
+            <div className="col-12 col-lg-10 mx-auto text-white">
               <hr />
               <div className="mt-5">
                 <p className="main-hero-para text-center w-100">
